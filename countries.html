@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>All About Janken</title>
+	<style>
+		body {
+			background-color:#02F0D3;
+			font-family:verdana;
+		}
+		
+		h2 {
+			color:#9B5DE5;
+			text-align:center;
+		}
+		
+		h3 {
+			text-align:center;
+		}
+		
+		table, th, td {
+			border:3px solid black;
+			border-collapse: collapse;
+		}
+		
+		.sub {
+			background-color:#FEE440;
+			border:3px solid white;
+		}
+		
+		.center {
+  			display: block;
+  			margin-left: auto;
+ 			margin-right: auto;
+		}
+		
+		#first {
+			background-color:#F15BB5;
+			padding: 30px;
+			text-align: center;
+			border:10px solid #09B6F3;
+		}
+	</style>
+</head>
+	
+<body>
+	<h1 id="first">JANKEN!</h1>
+	
+	<h2><u>Rock-Paper-Scissors in Other Countries</u></h2>
+	
+	<img src="images/mapmarkers.jpg" alt="A world map with France, New Zealand, and South Korea pinned." class="center">
+	<ul>
+		<li>In <strong style="color:#F15BB5;">France</strong>, the game is called <i>pierre, feuille, ciseaux.</i></li>
+		<li>In <strong style="color:#F15BB5;">South Korea</strong>, the game is called <i>kawi, bawi, bo</i> (가위, 바위, 보).</li>
+		<li>In <strong style="color:#F15BB5;">New Zealand</strong>, the game is called paper, scissors, rock.</li>
+	</ul>
+	
+	<p>I'll teach you something else while you're here.</p>
+	
+	<button type="button" onclick="myFunction()">Ready?</button>
+	<p id="demo">There is a...</p>
+	
+	<script>
+		function myFunction() {
+			document.getElementById("demo").innerHTML="There is a robot at the University of Tokyo developed by the Ishikawa Group Lab with a 100% win rate in Janken."
+		}
+	</script>
+	
+	
+</body>
+</html>
